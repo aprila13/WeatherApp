@@ -1,0 +1,31 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50%;
+    background-image: url(https://images.pexels.com/photos/8471271/pexels-photo-8471271.jpeg?cs=srgb&dl=pexels-szabolcs-toth-8471271.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Anybody', cursive;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 375px;
+    
+}
+.weatherContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: -260px;
+    background: whitesmoke;
+    opacity: 0.6;
+    border-radius: 5%;
+}
+
+.zip {
+ display: flex;
+ justify-content: center;
+}

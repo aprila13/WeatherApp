@@ -1,0 +1,27 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "My weather App",
+  "main": "weatherApp.js",
+  "scripts": {
+    "start": "node weatherApp.js",
+    "dev": "nodemon weatherApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/China-a/WeatherApp.git"
+  },
+  "author": "China",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/China-a/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/China-a/WeatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
